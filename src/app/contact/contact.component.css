@@ -1,21 +1,29 @@
+body {
+    margin-top: 100px
+}
+
 label {
     display: block;
-  }
-  label input, label textarea {
+}
+
+label input,
+label textarea {
     display: block;
     width: 50%;
     margin-bottom: 20px;
     padding: 1em;
-  }
-  label .error {
+}
+
+label .error {
     margin-top: -20px;
     background: yellow;
     padding: 0.5em;
     display: inline-block;
     font-size: 0.9em;
     margin-bottom: 20px;
-  }
-  .cta {
+}
+
+.cta {
     background: #70f;
     border: none;
     color: white;
@@ -24,15 +32,17 @@ label {
     padding: 1em;
     cursor: pointer;
     font-family: 'Montserrat';
-  }
-  .results {
+}
+
+.results {
     margin-top: 50px;
-  }
-  .results strong {
+}
+
+.results strong {
     display: block;
-  }
-  .results span {
+}
+
+.results span {
     margin-bottom: 20px;
     display: block;
-  }
-  
+}

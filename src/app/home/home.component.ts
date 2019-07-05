@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(private data: DataService) { }
 
   ngOnInit() {
+    this.showDataClick();
   }
   firstClick() {
     this.h1Style = !this.h1Style;

@@ -1,14 +1,22 @@
-.gray{
-    color: green
+.gray {
+    color: grey
 }
+
 .large {
     font-size: 4em;
 }
-ul {
-    list-style-type: none;
-    margin: 0;padding: 0;
+
+body {
+    margin-top: 100px
 }
-li {
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
     background: rgb(238, 238, 238);
     padding: 2em;
     border-radius: 4px;
@@ -16,7 +24,25 @@ li {
     display: grid;
     grid-template-columns: 60px auto;
 }
-img {
+
+ul li img {
     border-radius: 50%;
     width: 100%;
+}
+
+#user_detail {
+    padding: 10px;
+    color: green;
+    size: 100px;
+}
+
+#user_detail:hover {
+    padding: 10px;
+    color: red;
+    size: 100px;
+}
+
+#user_detail::before {
+    content: "Name: ";
+    color: blue;
 }
